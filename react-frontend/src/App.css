@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: Inter, serif;
+}
+
+/*HACK: checkboxes are busted, this could change at any time. need to fix low priority*/
+.chakra-checkbox__control {
+    background-color: lightblue;
+    border: 1px solid black;
+}
